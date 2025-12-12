@@ -1,161 +1,210 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	font-family: Roboto;
 }
-* a{
+
+* a {
 	text-decoration: none;
 }
-.up-section{
+
+.up-section {
 	display: flex;
 	height: 60px;
 	background: #fffbfb;
 }
-.head-left-section{
+
+.head-left-section {
 	display: flex;
 
 
 }
-.didi-logo{
+
+.didi-logo {
 	width: 29%;
 	margin: 19px 20px;
 }
-.didi-logo img{
+
+.didi-logo img {
 	width: 100%;
 }
-.address{
+
+.address {
 	display: flex;
 	margin: 23px 0 0 2px;
 	color: black;
 	font-size: 14px;
 	font-weight: bold;
 }
-.address-svg{
+
+.address-svg {
 	margin: 17px 5px 0 60px;
 }
 
 
-
-
-input{
+input {
 	width: 68%;
 	height: 40px;
 	margin: 10px 0 0 30px;
-    border-radius: 5px;
+	border-radius: 5px;
 	border: none;
 	background: #E3E3E6;
 }
 
-
-
-
-
-.head-right-section{
-    display: flex;
-    justify-content: flex-end;
-    margin: 15px 0;
-    gap: 50px;
+.head-right-section {
+	display: flex;
+	justify-content: flex-end;
+	margin: 15px 0;
+	gap: 50px;
 }
-.head-right-section a{
+
+.head-right-section a {
 	color: black;
 }
 
-.rightsection-right{
-    display: flex;
-    width: 30%;
-    gap: 40px;
-    width: 40%;
+.rightsection-right {
+	display: flex;
+	width: 30%;
+	gap: 40px;
+	width: 40%;
 }
-.rightsection-left{
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-    gap: 40px;
+
+.rightsection-left {
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+	gap: 40px;
 }
-.profile-photo{
+
+.profile-photo {
 	width: 100%;
 }
-.profile-photo img{
+
+.profile-photo img {
 	width: 100%;
 	border-radius: 50px;
 }
 
 
-
-
-
-
-
-
-
-
-body{
+body {
 	background: #f0f0f0;
 }
-.older{
-	
-}
-.principal-section{
+
+
+.principal-section {
 	display: flex;
 	width: 87%;
 	margin: 45px auto;
 }
-.principal-section p{
+
+.principal-section p {
 	font-size: 28px;
 	font-weight: bold;
 }
-.threeoptions{
+
+.threeoptions {
 	display: flex;
-    background: rgb(255, 199, 183);
+	background: rgb(255, 199, 183);
 	margin: 10px 0 0 20px;
 	width: 65%;
 	gap: 10%;
 }
-.threeoptions button{
+
+.threeoptions button {
 	border: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menusection{
+.menusection {
 	width: 85%;
 	margin: 10px auto;
 }
-.menusection img{
+
+.menusection > img {
 	width: 20%;
 	margin: 5px 20px;
 }
-.foodwhire{
-	background: rgb(255, 206, 166);
 
+.foodwhire {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.card-restaurant {
+	flex: 1;
+	max-width: calc(25% - 36px);
+	background-color: #FFFFFF;
+	list-style: none;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.card-restaurant img {
+	width: 100%;
+	display: block;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.description h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.delivery-info {
+	font-weight: 300;
+}
+
+.circle {
+	width: 2px;
+    height: 2px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.offer-badge {
+	width: fit-content;
+	background-color: #FFECE4;
+	font-weight: bold;
+	color: #FF7D41;
+	padding: 5px 0px;
+	font-size: 12px;
+	margin-left: 8px;
+	position: relative;
+}
+
+.offer-badge::after, .offer-badge::before {
+	content: "";
+    display: block;
+    height: 100%;
+    width: 8px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAqCAYAAAC6EtuqAAAAAXNSR0IArs4c6QAAAUNJREFUSA3tlrFOwzAQhn+7FoQBlRYqNh6AHV6BAcTjINgy8zg8BmXuUwASYsABp+bs6oRNo8Z2FoTq5Rz7/s9n55yLADVb1wp4PIIZ7cF8jtxYahNerOcngJGpotBvtTLaIrEDSR92iMzsEyBvz7/5xaEzaAtwr3Fg+wuACq9Qti3diXBCa63A3dUBXajDXJAHsMjeXO9DNsf8nGKjQxT3D++AekkRsk8E8IPV2RsgDDv02WgL7GxvLyep57EegaNUsmFYn+0GnFYDAX3LBvPdESz0buCzsdsN0MtyAH3mCdqONy4bTK5HoOcktvS5T2sRwKdy5n3wZcxdprp5mkB8zdLW/fGi0nYxhbFjGJFVExmhoDGl3OfnbBudQbaaBFvAPzkDtVNcVFzeSKj2oySBWEOJdP5MtWDJA7l2VdoG/Gh+A+Z3SPUjUtfwAAAAAElFTkSuQmCC) no-repeat;
+    background-size: 100% 100%;
+	right: 100%;
+}
+
+.offer-badge::before {
+	right: 0;
+	left: 100%;
+	transform: scaleX(-1);
+}
