@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+* a{
+	text-decoration: none;
+}
+.up-section{
+	display: flex;
+	height: 60px;
+	background: #fffbfb;
+}
+.head-left-section{
+	display: flex;
+
+
+}
+.didi-logo{
+	width: 29%;
+	margin: 19px 20px;
+}
+.didi-logo img{
+	width: 100%;
+}
+.address{
+	display: flex;
+	margin: 23px 0 0 2px;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+.address-svg{
+	margin: 17px 5px 0 60px;
+}
+
+
+
+
+input{
+	width: 68%;
+	height: 40px;
+	margin: 10px 0 0 30px;
+    border-radius: 5px;
+	border: none;
+	background: #E3E3E6;
+}
+
+
+
+
+
+.head-right-section{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+    gap: 50px;
+}
+.head-right-section a{
+	color: black;
+}
+
+.rightsection-right{
+    display: flex;
+    width: 30%;
+    gap: 40px;
+    width: 40%;
+}
+.rightsection-left{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    gap: 40px;
+}
+.profile-photo{
+	width: 100%;
+}
+.profile-photo img{
+	width: 100%;
+	border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+	background: #f0f0f0;
+}
+.older{
+	
+}
+.principal-section{
+	display: flex;
+	width: 87%;
+	margin: 45px auto;
+}
+.principal-section p{
+	font-size: 28px;
+	font-weight: bold;
+}
+.threeoptions{
+	display: flex;
+    background: yellow;
+	margin: 10px 0 0 20px;
+	width: 65%;
+	gap: 10%;
+}
+.threeoptions button{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menusection{
+	width: 85%;
+	margin: 10px auto;
+}
+.menusection img{
+	width: 20%;
+	margin: 5px 20px;
+}
+.foodwhire{
+	background: yellow;
+
